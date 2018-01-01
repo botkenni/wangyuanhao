@@ -1,0 +1,114 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+#header{
+	height:80px;
+	background:#000;
+	color:#fff;
+}
+#header h1{
+	margin:0px;
+	float:left;
+	padding-left:20px;
+}
+#header .header-right{
+	float:right;
+	padding-right:20px;
+}
+
+#header .header-box{
+	height:80px;
+	line-height:80px;
+}
+#header a , #header a:active , #header a:link{
+	color:#fff;
+	text-decoration:none;
+}
+#header a:hover{
+	text-decoration:underline;
+}
+
+#menu{
+	float:left;
+	width:200px;
+	background:#efefef;
+	padding-top:20px;
+	padding-left:30px;
+	border-right:1px solid #999;
+}
+
+#menu li{
+	border-bottom:1px solid #ccc;
+	margin-bottom:10px;
+}
+
+#menu li a{
+	text-decoration:none;
+}
+
+#menu li ul{
+	padding-top:5px;
+}
+
+#menu li ul li{
+	border-bottom:none;
+}
+
+#menu li ul li a{
+	font-size:13px;
+	text-decoration:none;
+}
+
+#menu li a {
+	color:#333;
+	height:34px;
+	line-height:34px;
+	font-size:15px;
+	display:block;
+}
+
+#menu li a:hover{
+	text-decoration:none;
+}
+
+#menu li ul li a{
+	padding-left:40px;
+}
+
+.icon{
+	float:left;
+	width:21px;
+	height:21px;
+	margin-top:6.5px;
+	margin-right:20px;
+}
+
+.icon-home{
+	background:url("../images/iconv.png") no-repeat 0 0;
+}
+
+.icon-person{
+	background: url("../images/iconv.png") no-repeat 0 -104px;
+}
+
+.icon-message{
+	background:url("../images/iconv.png") no-repeat 0 -42px;
+}
+
+.icon-start{
+	background: url("../images/iconv.png") no-repeat 0 -146px;
+}
+
+.icon-setting{
+	background: url("../images/iconv.png") no-repeat scroll 0 -84px;
+}
+
+ul {
+	list-style-type:none;
+}
+
+#content-right{
+	width:600px;
+	float:left;
+}

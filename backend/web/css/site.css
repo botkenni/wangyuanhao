@@ -1,0 +1,35 @@
+.inner-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+a.data_op {
+	display: inline-block;
+	height: 28px;
+	text-decoration: none;
+	text-indent: -99999px;
+	vertical-align: middle;
+	width: 28px;
+}
+
+.data_edit {
+	background:url("../images/operation.png") no-repeat left top;
+}
+
+a.data_edit:hover {
+	background: url("../images/operation.png") 0px -28px no-repeat;
+}
+
+
+a.data_delete {
+	background: url("../images/operation.png") -28px 0px no-repeat;
+}
+a.data_delete:hover {
+	background: url("../images/operation.png") -28px -28px no-repeat;
+}
+
+.pagination{
+	float:right;
+}
+
+.form-group{width:100%;}

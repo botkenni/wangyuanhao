@@ -1,0 +1,53 @@
+    #ds-thread #ds-reset .ds-post-toolbar input.recommemt-verify-code{
+        display:inline-block;
+        height:25px;
+        line-height:25px;
+        vertical-align:8px;
+        background:#EFEFEF;
+        width:90px;
+        color:#333;
+        font-size:14px;
+    }
+    /*这里需要注意改成子类*/
+    #ds-thread #ds-reset .ds-textarea-wrapper{
+        border-top:1px solid #ccc;
+        border-left:1px solid #ccc;
+        border-right:1px solid #ccc;
+    }
+    #ds-thread #ds-reset .ds-textarea-wrapper textarea{
+        height:100px;
+    }
+    #ds-reset *{
+        box-sizing: border-box;
+    }
+    #cmpage ul#yw0{
+        display:block;
+        margin-top:15px;
+    }
+    #cmpage ul#yw0 li{
+        border:1px solid #ccc;
+        display:inline-block;
+        /*padding:2px 5px;*/
+        padding:0px;
+        margin-left:3px;
+    }
+    #ds-thread #ds-reset  #cmpage ul#yw0 li.selected{
+        background-color:#EFEFEF;
+    }
+    #ds-thread #ds-reset  #cmpage ul#yw0 li a{
+        padding:3px 4px;
+    }
+
+    /*分享按钮*/.bdsharebuttonbox{clear:both;margin-top:5px;}.bdshare-button-style0-16 a, .bdshare-button-style0-16 .bds_more {color:#999;font-size:14px;}.bdshare-button-style0-16 a:hover{text-decoration: none;}
+																																					  /*追加样式*/
+	#ds-reset input.ds-name{
+		height:28px;
+		line-height:28px;
+		color:#666;
+		padding-left:12px;
+		background-color:#fff;
+		width:100%;
+	}
+	#cmpage ul#yw0 li.prev,#cmpage ul#yw0 li.next{
+		display:none;
+	}
